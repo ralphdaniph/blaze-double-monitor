@@ -1,0 +1,16 @@
+site_url: "https://blaze.bet.br/pt/games/double"
+alerts:
+  rolling:
+    size: 350
+    path: "data/rolling_350.csv"
+  backfill:
+    enabled: true
+    source: "blaze"
+notifiers:
+  sound: true
+  telegram:
+    enabled: false
+analytics:
+  horizon: 3
+  min_samples: 5
+  confidence: 0.90
